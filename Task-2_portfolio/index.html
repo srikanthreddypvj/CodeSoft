@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>my profile</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+</head>
+<body onload="loader()">
+    <div id="Loading"></div>
+     <!-----start Hearder section----->
+     <div id="hearder"  data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+        <div class="contenier">
+            <nav >
+                
+                <ul id="sidmenu" data-aos="zoom-in">
+                    <li><a href="#hearder" >Home</a></li>
+                    <li><a href="#about" >About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio" >Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                 </ul>
+                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+              </nav> 
+              <div class="hearder-text"  data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine">
+               
+                <h1>Hi, This is <span>Panduga Srikanth Reddy</span> </h1>
+              </div>       
+            </div>
+        </div>
+     </div>
+      <!-----End Hearder section----->
+
+
+      <!-----start About section----->
+      <div id="about"data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom">
+        <div class="contenier">
+            <div class="row">
+                <div class="about-col-1">
+                  <img src="img/jsp.jpg" data-aos="zoom-in" >  
+                </div>
+                <div class="about-col-2" data-aos="zoom-in">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a fourth-year computer science and engineering student, aspiring to be a future developer. During my internship at the Sparks Foundation, I gained valuable experience in web development. I also had the opportunity to work on several projects that further sharpened my coding skills. Currently, I'm dedicated to honing my abilities as I work towards my goal of becoming a skilled programmer.</p>
+                   <div class="tab-titles" data-aos="fade-left">
+                    <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills" data-aos="zoom-in">
+                    <ul>
+                        <li><span>C,C++,python</span><br>Competitive programming</li>
+                        <li><span>Web Development</span><br> Web App development</li>
+
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="experience" >
+                    <ul>
+                        <li><span>2024 - Present </span><br>Web Development Intern at The Sparks Foundation </li>
+                        <li><span>2023 - Present</span><br>Mern full stack internship</li>
+                       
+                       
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>M.Tech Integrated Software Engineering</span><br>Vellore Institute of Technology Chennai</li>
+                    </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-----End About section----->
+
+
+
+
+      <!-----Service section Start----->
+     <div id="services" data-aos="fade-up"
+     data-aos-anchor-placement="top-center">
+        <div class="contenier" >
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div data-aos="fade-right">
+                    <img src="img/flag.png">
+                    <h2>Web Development</h2>
+                    <p>Creating websites from ideas.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div data-aos="flip-up">
+                    <img src="img/hr.jpeg" >
+                    <h2>Mern full stack</h2>
+                    <p>HR Management Application Tracking System.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                
+
+            </div>
+
+        </div>
+     </div>
+      <!----services section end ----->
+
+
+        <!----portfolio section Start ----->
+
+        <div id="portfolio">
+            <div class="contenier">
+                <h1 class="sub-title">My Repositories</h1>
+                <p>Creative endeavours will reveal one's talent and commitment..</p>
+                <div class="work-list" >
+                    <div class="work" data-aos="zoom-in">
+                        <img src="img/Portfolio2.png" >
+                        <div class="layer">
+                            <h3>Basic Banking Website</h3>
+                            <p>This website has been developed for an internship!</p>
+                        </div>
+                        
+                    </div>
+                    <div class="work" data-aos="zoom-in">
+                        <img src="img/Portfolio3.png" >
+                        <div class="layer">
+                            <h3>Payment Gateway Integration</h3>
+                            <p>This website has been developed for an internship</p>
+                          
+                        </div>
+                        
+                    </div>
+                    <div class="work" data-aos="zoom-in">
+                        <img src="img/Portfolio4.png" >
+                        <div class="layer">
+                            <h3>Chatting Application</h3>
+                            <p>A clone of whatsapp which is created using java!</p>
+                           </div>
+                        
+                    </div>                 
+                </div>
+                <a href="https://github.com/srikanthreddypvj" class="btn">Learn More</a>
+            </div>
+        </div>
+         <!----portfolio section End ----->
+
+
+          <!----Contact section Start ----->
+          <div id="contact"  >
+            <div class="contenier">
+                <div class="row">
+                    <div class="contact-left"  data-aos="fade-up-right">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>srikanthreddypvj@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone-flip"></i>8341403402</p>
+                        <div class="social-icons" data-aos="zoom-in">
+            
+                            <a target="_blank" class="instagram" href="https://www.instagram.com/srikanthreddypvj"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a target="_blank" class="github" href="https://github.com/srikanthreddypvj"><i class="fa-brands fa-github"></i></a>
+                            <a target="_blank" class="linkedin" href="https://www.linkedin.com/in/panduga-venkata-jaya-srikanth-reddy/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="https://drive.google.com/file/d/1HgZOQWqklikP0301DiUW-XpFTsAKAmza/view?usp=drivesdk" class="btn btn2">View Resume</a>
+
+                    </div>
+                    <div class="contact-right" data-aos="fade-up-left">
+                        <form >
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="Email" name="Email" placeholder="Your Email" required>
+                            <textarea name="massage" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Srikanth Reddy PVJ</p>
+            </div>
+          </div>
+   
+          <!----Contact section End ----->
+          <script>
+            var preloader = document.getElementById("Loading");
+            function loader(){
+              preloader.style.display = 'none';
+            }
+          </script>
+  
+      <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+      </script>
+      
+    <!-- aos data  -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          duration: 900,
+        });
+      </script>
+    <script>
+        var sidmenu = document.getElementById("sidmenu");
+        function openmenu(){
+            sidmenu.style.right ="0";
+        }
+        function closemenu(){
+            sidmenu.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>
