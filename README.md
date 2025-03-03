@@ -1,2 +1,2 @@
 # CodeSoft
-rtua
+rt
