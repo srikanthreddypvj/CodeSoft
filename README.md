@@ -1,2 +1,2 @@
 # CodeSoft
-Virtual Internsh
+Virtual Interns
