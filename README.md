@@ -1,2 +1,2 @@
 # CodeSoft
-rtual Inter
+rtual Int
